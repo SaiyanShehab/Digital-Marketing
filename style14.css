@@ -1,0 +1,50 @@
+.container-fluid{
+
+    background-color:rgb(239, 171, 83);
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin:auto; 
+    padding: 40px 0,
+   
+}
+
+
+.container-fluid ul{
+    color:black
+}
+
+.container-fluid ul li{
+list-style: none;
+display: inline-block;
+margin: 0 10px;
+position:relative;
+}
+
+.container-fluid ul li a{
+    color:rgb(0, 0, 0);
+    
+}
+.breadcrumb{
+    background-color: rgb(66, 61, 61);
+    padding:10px;
+    color:rgb(228, 223, 223);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container-fluid ul ul{
+    background-color:white;
+ 
+}
+
+.container-fluid ul li a:hover{
+    
+    color:white;
+}
+
+.col-md-12{
+    background-image: linear-gradient url(img/bg.png);
+}
+
